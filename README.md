@@ -4,27 +4,19 @@ This is an attempt to replicate [Devine Lu Linvega](https://wiki.xxiivv.com/site
 
 ## Add your website to this webring
 
-1. Prepare your entry file in the format
-    ```bash
-    url="example.com"
-    author="John Doe"
-    title="Exampla Website"
-    ```
-2. Save it to a file with the same name as your domain, i.e. `example.com`
+1. Clone this repository
+2. Add your site using `./wr add example.com "my cool website" "John Doe"` \
+    Replace `example.com` with your actual website url, `my cool website` with your entry title, and optionally add your name
 3. Submit a patch by any of these methods
+    - Issuing a pull request from [GitHub](https://github.com/4bcx/webring)
     - Sending a mail to the project's [mailing list](https://lists.sr.ht/~a2/webring)
     - Using [`git send-email`](https://git-send-email.io/)
-        1. Clone the project [repository](https://git.sr.ht/~a2/webring)
-        2. Add your file to `entries` directory
-        3. Add and commit your changes
-        4. Send the email using `git send-email --to="~a2/webring@lists.sr.ht" HEAD^`
-    - Issuing a pull request from [GitHub](https://github.com/4bcx/webring)
 4. Add the ring links to your site, preferrably in the footer, for example
     ```html
     <ul>
-        <li><a href="https://wr.4b.cx/{{example.com))/previous">&larr; previous</a></li>
+        <li><a href="https://wr.4b.cx/{{example.com}}/previous">&larr; previous</a></li>
         <li><a href="https://wr.4b.cx/">webring index</a></li>
-        <li><a href="https://wr.4b.cx/{{example.com))/next">next &rarr;</a></li>
+        <li><a href="https://wr.4b.cx/{{example.com}}/next">next &rarr;</a></li>
     </ul>
     ```
 
