@@ -70,7 +70,7 @@ build_webring() {
     <meta content="webring" property="twitter:title">
     <meta content="Minimal webring" property="twitter:description">
     <link href="https://wr.4b.cx/" rel="canonical">
-    <link href="data:," rel="icon">
+    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAAAqo0jMgAAAAd0SU1FB+YMGRUdK60VU+wAAAEzSURBVEjH7ZO9SgNBFIU/fyImEkgExRQquEiaQCwsDT6AnYWdnWCRx0jlA1ha+Q4WCvYWFimTgKzBRgUTRDSB6Fh4dzI7mJm1sNvT3DOHe787w7KQKtW/qIFCoTg3skPJbpIA7qT5yMhWJVMEvvGybt38FVu3B6atc01qj04sjy6/6wOUpbatPDpv+QCBBxAwlwzQtfKu7i+5AWtS+8AeISEhJ0BPdyzHB2YtwILUAVBgHYAVYKg7cu4bZKR+AVnxWeBz0kobMDCG8uLzsb3vbkD01hywZLx6DHhxA0Kpi4y/yAZQFK+4dwOaUivMsCO+QJWK+JZ+5AQd6H+hpZ3igTdxp3g0z5MxqLiMnRTbPgDsM9Ltz5S4Nsa9+39U44I+r1xRBYqc8cgHtxwzlQyQ6o/6BrGHacYUEyMVAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTEyLTI1VDIxOjI5OjQzKzAwOjAwsFlEUAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0xMi0yNVQyMToyOTo0MyswMDowMMEE/OwAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjItMTItMjVUMjE6Mjk6NDMrMDA6MDCWEd0zAAAACHRFWHRsYWJlbADPieuXgVsAAAAASUVORK5CYII=" rel="icon">
     <script type="application/ld+json">
         {
                 "description":"Minimal webring",
@@ -92,7 +92,7 @@ build_webring() {
         h1 { text-align:center }
         ul { display: flow-root; }
         li, nav a { width: 40%; float: left; margin: 0 5%; }
-        nav a { display: block; text-align: center; }
+        nav a { text-decoration: none; display: block; text-align: center; }
         body[theme="dark"] { filter:invert(1); }
         @media (prefers-color-scheme: dark) { body[theme="auto"] { filter:invert(1); } }
         @media (max-width:640px) { li { width: 90%;  } }
@@ -101,7 +101,7 @@ build_webring() {
 
 <body theme="auto">
     <main>
-        <h1>webring</h1>
+        <h1>&omega; webring</h1>
         <hr />
         <ul>
 INDEX_PAGE_TOP
@@ -137,8 +137,8 @@ INDEX_PAGE_TOP
         <p>This project is licensed under <a href="https://raw.githubusercontent.com/4bcx/webring/main/LICENSE">MIT license</a></p>
         <hr />
         <nav>
-            <a href="https://wr.4b.cx/wr.4b.cx/previous">&larr; previous</a>
-            <a href="https://wr.4b.cx/wr.4b.cx/next">next &rarr;</a>
+            <a href="https://wr.4b.cx/wr.4b.cx/previous">&prec; previous</a>
+            <a href="https://wr.4b.cx/wr.4b.cx/next">next &succ;</a>
         </nav>
     </main>
 </body>

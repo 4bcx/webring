@@ -1,4 +1,4 @@
-# webring
+# &omega; webring
 
 This is an attempt to replicate [Devine Lu Linvega](https://wiki.xxiivv.com/site/devine_lu_linvega.html)'s [webring](https://webring.xxiivv.com/) in a very minimal way, and with a lower technical bar.
 
